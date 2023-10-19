@@ -1,0 +1,57 @@
+/*
+Address 
+- Multiple fields.
+- Each address has their own billing.
+ */
+
+
+ public class Address {
+    private String streetAddress; //customer street address 
+    private String city; //customer city location 
+    private String state; //customer state location 
+    private String postalCode; //customer postal code 
+
+    public Address(String streetAddress, String city, String state, String postalCode) {
+        this.streetAddress = streetAddress;
+        this.city = city;
+        this.state = state;
+        this.postalCode = postalCode;
+    }
+
+    // Getter and setter methods for the address attributes
+    public String getStreetAddress() {
+    }
+
+    public void setStreetAddress(String streetAddress) {
+    }
+
+    public String getCity() {
+    }
+
+    public void setCity(String city) {
+    }
+
+    public String getState() {
+    }
+
+    public void setState(String state) {
+    }
+
+    public String getPostalCode() {
+    }
+
+    public void setPostalCode(String postalCode) {
+    }
+
+    public boolean isValidAddress() {
+        // Implement address validation logic here
+    }
+
+    // Create class to manage customer multiple addresses
+    public static class Customer {
+        //nested class
+    }
+
+    //
+    public static void main(String[] args) {
+    }
