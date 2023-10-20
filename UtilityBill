@@ -1,35 +1,24 @@
-public class UtilityBill {
-        String paymentDate //date the bill needs to be paid
-        int amount //amount the customer needs to pay
-        bool isPaid //if the bill is paid or not
-        bool isLate //if the bill is late
-        int lateFee //fee amount added to bill if late
-        
+
+/*
+Bill
+-used for displaying a monthly bill for a specific address. all attributes derived from other classes
+
+ */
+public class Bill {
+        int billID //unique bill id generated for each bill
+        int monthlyUsage //obtained from usage class and displayed as part of bill
+        int rate //obtained from usage class and displayed
+        int amountDue //obtained from usage class and displayed
+        String dueDate //obtained from usage class and displayed
+        int penaltyAmount //obtained from usage class and displayed
+        String address //obtained from address and displayed
+
+
     public static main (String[] args)
     {
-
-    }
-    public static boolean setAmount(int amount){
-        //takes in an integer and verifies the format is correct
-        //sets the amount needed to be paid
-        //returns a boolean on whether setting the amount was sucessful
-    }
-    public static boolean setDate(String date){
-        //sets the date and verifies it
-        //returns a boolean true or false if setting the date was sucessful
+        //generated unique bill id when created
     }
 
-    public static boolean setLateFee(int fee){
-        //takes an integer fee
-        //sets the fee and verifies it
-        //returns a boolean true or false if setting the fee was sucessful
-    }
 
-    public static boolean payBill(int payment){
-        //takes an integer payment
-        //if the payment goes through then isPaid is set to true and returns a boolean true or false if the payment was sucessful
-    }
 
-    private static boolean setLate(){
-        //if the bill hasnt been paid by the date, the boolean isLate is set to True and the lateFee is added to the amount
-    }
+}

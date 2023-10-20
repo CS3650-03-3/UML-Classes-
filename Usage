@@ -1,0 +1,45 @@
+/*
+ * Usage 
+ * -contains all details and calcualtions about utility services for an address
+ */
+public class Usage {
+    int usageID //unique key for class
+    int monthlyUsage //how much of the service was used
+    String timeServiceRecieved //time the service was provided. ie 1/1/2023 - 1/29/2023
+    int rate //going rate for service provided. ie 100kw = $1
+    int amountDue //calcualted from rate and monthlyUsage
+    String dueDate //date the bill is due for the usage
+    int lateFee //amount added to the bill if paid after the due date
+    
+    public static main (String[] args)
+    {
+        //creates unique id for usage
+    }
+
+    public static boolean setAmount(int amount){
+        //takes in an integer and verifies the format is correct
+        //sets the amount needed to be paid
+        //returns a boolean on whether setting the amount was sucessful
+    }
+
+    private static calculateAmountDue() {
+        //calculates amount due from monthlyUsage and rate
+    }
+
+    public static boolean setDueDate(String date){
+        //sets the rate and verifies it
+        //returns a boolean true or false if setting the rate was sucessful
+    }
+
+    public static boolean setRate(int rate){
+        //sets the due date and verifies it
+        //returns a boolean true or false if setting the date was sucessful
+    }
+
+    public static boolean setLateFee(int fee){
+        //takes an integer fee
+        //sets the fee and verifies it
+        //returns a boolean true or false if setting the fee was sucessful
+    }
+
+}

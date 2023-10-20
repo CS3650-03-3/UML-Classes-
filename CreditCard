@@ -1,0 +1,25 @@
+/* Credit card
+* -contains credit card details that need to be verified before confirmed
+*/
+public class CreditCard {
+   
+    String ccNumber //credit card number, input by user. unique key id for this class
+    String cardholderName //name on the credit card
+    String cvcCode //cvc code needed to use card
+    String expirationDate //expiration date of card
+    
+    public static main (String[] args)
+    {
+        
+    }
+
+    public static setCardDetails(String number, String name, String code, String expDate){
+        //takes in user credit card details and sends them to be verified
+    }
+
+    public static boolean verifyCardDetails() {
+        //verifies user credit card details and returns true if it is sucessful
+    }
+
+   
+}

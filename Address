@@ -4,7 +4,6 @@ Address
 - Each address has their own billing.
  */
 
-
  public class Address {
     private String streetAddress; //customer street address 
     private String city; //customer city location 
@@ -47,11 +46,6 @@ Address
         // Implement address validation logic here
     }
 
-    // Create class to manage customer multiple addresses
-    public static class Customer {
-        //nested class
-    }
 
-    //
     public static void main(String[] args) {
     }
