@@ -19,6 +19,23 @@ public class Bill {
         //generated unique bill id when created
     }
 
-
+    public static getBillID(){
+        
+    }
+    public static setBillID(){
+        
+    }
+    public static getMonthlyUsage(){
+        
+    }
+    public static setMonthlyUsage(){
+        
+    }
+    public static getRate(){
+        
+    }
+    public static setRate(){
+        
+    }
 
 }

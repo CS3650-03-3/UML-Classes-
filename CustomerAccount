@@ -17,7 +17,10 @@ public class Customer {
         //account name information is formatted/verified for duplicates and stored/sent to database
         //returns a boolean true or false if the account has 0 duplicate names/ has 0 errors
     }
+
     public static boolean setAccountEmail(String accountEmail){
         //account email is formatted/verified for duplicates and sent to database
         //returns a boolean true or false if the account has a pre-existing email or not
     }
+
+}
